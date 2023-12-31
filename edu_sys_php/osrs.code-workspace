@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../osrs"
+		},
+		{
+			"path": "../grad_sys"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {}
+}
