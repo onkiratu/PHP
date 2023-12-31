@@ -1,0 +1,25 @@
+//Complete Steps to Design Project:
+
+-Start XAMPP Server.
+-Open localhost/phpmyadmin in your web browser.
+-Create database of name staff and table of name college.
+-Write HTML and PHP code in your Notepad in a particular folder.
+-Submit data through HTML Form.
+-Verify the results.
+
+//
+My idea for a project would be a database for entering student information, including performance and grading for them. 
+There are many ideas for a school database.
+
+// School Database 
+-Your task is to google for image results for a school database and share with us. 
+-They do not have to be unique since we should be settling for one in order to develope PHP interfaces for entering their
+  information.
+-Your second task is to learn how to create a database in wamp/xammp. Respond showing the process you used to create it.
+-The third task is to develope the database for the project. 
+-The database should contain all the information provided in the Excel datafile. 
+-Use the data in the Info sheet. This data was generated randomly using the functions in the Rand sheet. 
+-This is an assignment that is also a forum, therefore feel free to share successes and challenges. 
+You can also look at thenewboston videos on the same. Look at videos 113 and 114 in particular.
+
+ 

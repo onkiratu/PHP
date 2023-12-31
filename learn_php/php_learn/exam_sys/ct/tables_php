@@ -1,0 +1,41 @@
+Table: students
+Columns: id (int, primary key), name (varchar), age (int), grade_level (int)
+
+Table: teachers
+Columns: id (int, primary key), name (varchar), subject (varchar)
+
+Table: classes
+Columns: id (int, primary key), class_name (varchar), teacher_id (int, foreign key), room_number (int)
+
+Table: enrollments
+Columns: id (int, primary key), student_id (int, foreign key), class_id (int, foreign key)
+
+CREATE TABLE students (
+  id INT PRIMARY KEY, 
+  name VARCHAR(255), 
+  age INT, 
+  grade_level INT
+);
+
+CREATE TABLE teachers (
+  id INT PRIMARY KEY, 
+  name VARCHAR(255), 
+  subject VARCHAR (255)
+);
+
+CREATE TABLE classes (
+  id INT PRIMARY KEY, 
+  class_name VARCHAR(255), 
+  teacher_id INT,
+  FOREIGN KEY (teacher_id) REFERENCES teachers(id)
+);
+
+CREATE TABLE enrollments (
+  id INT PRIMARY KEY,
+  student_id INT,
+  class_id INT,
+  FOREIGN KEY (student_id) REFERENCES students(id),
+  FOREIGN KEY (class_id) REFERENCES classes(id)
+);
+
+
